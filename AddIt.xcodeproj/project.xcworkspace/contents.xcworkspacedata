@@ -2,6 +2,6 @@
 <Workspace
    version = "1.0">
    <FileRef
-      location = "self:MultiplyIt.xcodeproj">
+      location = "self:/Users/Joshmac/Desktop/start using xcode/MultiplyIt/AddIt.xcodeproj">
    </FileRef>
 </Workspace>

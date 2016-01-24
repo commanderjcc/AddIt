@@ -15,7 +15,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
-		43657D441C4CA38700AAA7FA /* MultiplyIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = MultiplyIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		43657D441C4CA38700AAA7FA /* AddIt.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = AddIt.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		43657D471C4CA38700AAA7FA /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		43657D491C4CA38700AAA7FA /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		43657D4C1C4CA38700AAA7FA /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
@@ -38,7 +38,7 @@
 		43657D3B1C4CA38600AAA7FA = {
 			isa = PBXGroup;
 			children = (
-				43657D461C4CA38700AAA7FA /* MultiplyIt */,
+				43657D461C4CA38700AAA7FA /* AddIt */,
 				43657D451C4CA38700AAA7FA /* Products */,
 			);
 			sourceTree = "<group>";
@@ -46,12 +46,12 @@
 		43657D451C4CA38700AAA7FA /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				43657D441C4CA38700AAA7FA /* MultiplyIt.app */,
+				43657D441C4CA38700AAA7FA /* AddIt.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		43657D461C4CA38700AAA7FA /* MultiplyIt */ = {
+		43657D461C4CA38700AAA7FA /* AddIt */ = {
 			isa = PBXGroup;
 			children = (
 				43657D471C4CA38700AAA7FA /* AppDelegate.swift */,
@@ -61,15 +61,16 @@
 				43657D501C4CA38700AAA7FA /* LaunchScreen.storyboard */,
 				43657D531C4CA38700AAA7FA /* Info.plist */,
 			);
+			name = AddIt;
 			path = MultiplyIt;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		43657D431C4CA38700AAA7FA /* MultiplyIt */ = {
+		43657D431C4CA38700AAA7FA /* AddIt */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 43657D561C4CA38700AAA7FA /* Build configuration list for PBXNativeTarget "MultiplyIt" */;
+			buildConfigurationList = 43657D561C4CA38700AAA7FA /* Build configuration list for PBXNativeTarget "AddIt" */;
 			buildPhases = (
 				43657D401C4CA38700AAA7FA /* Sources */,
 				43657D411C4CA38700AAA7FA /* Frameworks */,
@@ -79,9 +80,9 @@
 			);
 			dependencies = (
 			);
-			name = MultiplyIt;
+			name = AddIt;
 			productName = MultiplyIt;
-			productReference = 43657D441C4CA38700AAA7FA /* MultiplyIt.app */;
+			productReference = 43657D441C4CA38700AAA7FA /* AddIt.app */;
 			productType = "com.apple.product-type.application";
 		};
 /* End PBXNativeTarget section */
@@ -100,7 +101,7 @@
 					};
 				};
 			};
-			buildConfigurationList = 43657D3F1C4CA38600AAA7FA /* Build configuration list for PBXProject "MultiplyIt" */;
+			buildConfigurationList = 43657D3F1C4CA38600AAA7FA /* Build configuration list for PBXProject "AddIt" */;
 			compatibilityVersion = "Xcode 3.2";
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
@@ -113,7 +114,7 @@
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				43657D431C4CA38700AAA7FA /* MultiplyIt */,
+				43657D431C4CA38700AAA7FA /* AddIt */,
 			);
 		};
 /* End PBXProject section */
@@ -252,8 +253,8 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiplyIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiplyIt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AddIt;
+				PRODUCT_NAME = AddIt;
 			};
 			name = Debug;
 		};
@@ -263,15 +264,15 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				INFOPLIST_FILE = MultiplyIt/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = com.example.MultiplyIt;
-				PRODUCT_NAME = "$(TARGET_NAME)";
+				PRODUCT_BUNDLE_IDENTIFIER = com.example.AddIt;
+				PRODUCT_NAME = AddIt;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		43657D3F1C4CA38600AAA7FA /* Build configuration list for PBXProject "MultiplyIt" */ = {
+		43657D3F1C4CA38600AAA7FA /* Build configuration list for PBXProject "AddIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43657D541C4CA38700AAA7FA /* Debug */,
@@ -280,13 +281,14 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		43657D561C4CA38700AAA7FA /* Build configuration list for PBXNativeTarget "MultiplyIt" */ = {
+		43657D561C4CA38700AAA7FA /* Build configuration list for PBXNativeTarget "AddIt" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				43657D571C4CA38700AAA7FA /* Debug */,
 				43657D581C4CA38700AAA7FA /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
